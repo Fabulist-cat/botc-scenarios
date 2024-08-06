@@ -429,6 +429,31 @@
         "image": "/build/img/icons/demon/legion.webp",
         "remindersGlobal": []
     },
-    "sentinel",
-    "storm_catcher"
+    {
+        "id": "sentinel_uk",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": true,
+        "name": "Вартовий",
+        "team": "fabled",
+        "ability": "Чужинців у грі може бути на 1 більше або менше",
+        "image": "/build/img/icons/fabled/sentinel.webp",
+        "remindersGlobal": []
+    },
+    {
+        "id": "stormcatcher_uk",
+        "firstNight": 1,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Захищено"
+        ],
+        "setup": false,
+        "name": "Ловигрім",
+        "team": "fabled",
+        "ability": "Назвіть доброго персонажа: цей персонаж, якщо в грі, може померти лиш від страти. Злі гравці знають цього гравця.",
+        "image": "/build/img/icons/fabled/stormcatcher.webp",
+        "remindersGlobal": []
+    }
 ]
