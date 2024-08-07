@@ -1,0 +1,200 @@
+[
+  {
+    "id": "_meta",
+    "name": "Laissez un Faire",
+    "author": "Steven Medway"
+  },
+  {
+    "id": "balloonist_uk",
+    "name": "Повітроплавець",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 44,
+    "firstNightReminder": "Оберіть тип персонажа. Вкажіть на гравця, що має цей тип. Позначте їх жетоном \"Знає\" Повітроплавця.",
+    "otherNight": 63,
+    "otherNightReminder": "Оберіть тип персонажа, відмінний від минулої ночі. Вкажиіть на гравця, чий персонаж має цей тип. Позначту його жетоном \"Знає\" Повітроплавця, приберіть попередній жетон \"Знає\".",
+    "reminders": [
+      "Знає"
+    ],
+    "setup": true,
+    "ability": "Щоночі ви дізнаєтесь гравця, персонаж якого знаходиться в в різних розділах з персонажем попереднього. [+0 чи +1 чужинець]",
+    "image": "/build/img/icons/townsfolk/balloonist.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "savant_uk",
+    "name": "Савант",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Щодня ви можете усамітнитись з Оповідачем, і він скаже вам дві речі: одну правду й одну брехню.",
+    "image": "/build/img/icons/townsfolk/savant.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "amnesiac_uk",
+    "name": "Амнезіак",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 12,
+    "firstNightReminder": "Вирішіть, яку здібність матиме Амнезіак. Якщо через свою здібність Амнезіак прокинеться цієї ночі, розбудіть його і дійте відповідно.",
+    "otherNight": 5,
+    "otherNightReminder": "Якщо через свою здібність Амнезіак прокинеться цієї ночі, розбудіть його і дійте відповідно.",
+    "reminders": [
+      "?"
+    ],
+    "setup": false,
+    "ability": "Ви не знаєте своєї здібності. Щодня спробуйте (приватно) вгадати її; ви дізнаєтесь, наскільки близько вгадали.",
+    "image": "/build/img/icons/townsfolk/amnesiac.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "fisherman_uk",
+    "name": "Рибалка",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Без здібності"
+    ],
+    "setup": false,
+    "ability": "Один раз за гру, вдень, ви можете усамітнитись з Оповідачем, і він дасть вам пораду, як перемогти.",
+    "image": "/build/img/icons/townsfolk/fisherman.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "artist_uk",
+    "name": "Митець",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Немає здібності"
+    ],
+    "setup": false,
+    "ability": "Одного разу за гру, протягом дня, приватно задайте Оповідачу будь-яке запитання, на яке можна відповісти “так” або “ні”",
+    "image": "/build/img/icons/townsfolk/artist.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "cannibal_uk",
+    "name": "Канібал",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Отруєно",
+      "Сьогодні помер"
+    ],
+    "setup": false,
+    "ability": "Ви маєте здібність останнього страченого гравця. Якщо страчено злого грався, вас отруєно, доки не стратять нового гравця.",
+    "image": "/build/img/icons/townsfolk/cannibal.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "mutant_uk",
+    "name": "Мутант",
+    "edition": "snv",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Якщо ти \"одержимий\" тим, що ти - чужинець, тебе може бути страчено.",
+    "image": "/build/img/icons/outsider/mutant.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "lunatic_uk",
+    "name": "Навіжений",
+    "edition": "bmr",
+    "team": "outsider",
+    "firstNight": 7,
+    "firstNightReminder": "Якщо в грі 7 або більше гравців: Покажіть Навіженому стільки 'Міньонів' (кого показати обираєте Ви), скільки Міньонів має бути у грі. Покажіть будь-які три жетони добрих персонажей. Якщо Навіжений отримав демона, що зараз прокидається: Дайте Навіженому зробити дії Демона. Позначте його вибір жетонами \"нападу\". Розбудіть Демона. Покажіть Демону його справжній жетон персонажа. Вкажіть демону на гравця-Навіженого. Якщо Навіжений обрав когось: Покажіть демону обраних гравців. Приберіть жетони \"нападу\" Навіженого.",
+    "otherNight": 21,
+    "otherNightReminder": "Дайте Навіженому зробити дії Демона. Позначте його вибір жетонами \"нападу\". Розбудіть демона. Покажіть демону його справжній жетон персонажа. Якщо Навіжений обрав когось: Покажіть демону обраних гравців. Приберіть жетони \"нападу\" Навіженого.",
+    "reminders": [
+      "Напад 1",
+      "Напад 2",
+      "Напад 3"
+    ],
+    "setup": false,
+    "ability": "Вам здається, що ви демон, але це не так. Демон знає, хто ви, і кого ви обрали вночі.",
+    "image": "/build/img/icons/outsider/lunatic.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "widow_uk",
+    "name": "Чорна Вдова",
+    "edition": "",
+    "team": "minion",
+    "firstNight": 18,
+    "firstNightReminder": "Показуйте Чорній Вдові Ґримуар скілки вона забажає. Чорна Вдова обирає гравця: цього гравця отруєно. Розбудіть доброго гравця. Покажіть картку 'Цей персонаж у грі' і жетон Чорної Вдови.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Отруєно"
+    ],
+    "remindersGlobal": [
+      "Знає"
+    ],
+    "setup": false,
+    "ability": "Першої ночі подивіться в Ґримуар та оберіть гравця: його отруєно. 1 хороший гравець знає, що Чорна Вдова у грі.",
+    "image": "/build/img/icons/minion/widow.webp"
+  },
+  {
+    "id": "goblin_uk",
+    "name": "Гоблін",
+    "edition": "",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Оголосив"
+    ],
+    "setup": false,
+    "ability": "Якщо, коли вас номінують, ви публічно оголошуєте себе Гобліном, і після цього вас страчено, то ваша команда перемагає.",
+    "image": "/build/img/icons/minion/goblin.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "leviathan_uk",
+    "name": "Левіафан",
+    "edition": "",
+    "team": "demon",
+    "firstNight": 52,
+    "firstNightReminder": "Покладіть в Ґримуар жетон 'День 1' Левіафана. Оголосіть 'Левіафан у грі. Перший день почався'",
+    "otherNight": 72,
+    "otherNightReminder": "Замініть маркер дня Левіафана на наступний.",
+    "reminders": [
+      "День 1",
+      "День 2",
+      "День 3",
+      "День 4",
+      "День 5",
+      "Доброго гравця страчено"
+    ],
+    "setup": false,
+    "ability": "Якщо страчено більше одного доброго гравця - зло перемагає. Всі гравці знають, що ви у грі. Наприкінці 5-го дня зло перемагає.",
+    "image": "/build/img/icons/demon/leviathan.webp",
+    "remindersGlobal": []
+  }
+]
