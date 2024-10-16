@@ -86,7 +86,7 @@
     "setup": false,
     "ability": "Щоночі оберіть живого гравця; якщо ви оберете демона, ви міняєтесь персонажами й командами, і його отруєно.",
     "image": "/build/img/icons/townsfolk/snakecharmer.webp",
-    "remindersGlobal": [],
+    "remindersGlobal": []
   },
   {
     "id": "fortuneteller_uk",
