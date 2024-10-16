@@ -7,12 +7,12 @@
   {
     "id": "steward_uk",
     "name": "Стюард",
-    "edition": "",
+    "edition": null,
     "team": "townsfolk",
     "firstNight": 41,
     "firstNightReminder": "Вкажіть на доброго гравця.",
     "otherNight": 0,
-    "otherNightReminder": "",
+    "otherNightReminder": null,
     "reminders": [
       "Знає"
     ],
@@ -24,12 +24,12 @@
   {
     "id": "knight_uk",
     "name": "Лицар",
-    "edition": "",
+    "edition": null,
     "team": "townsfolk",
     "firstNight": 42,
     "firstNightReminder": "Вкажіть на двох гравців, жоден з яких не є демоном.",
     "otherNight": 0,
-    "otherNightReminder": "",
+    "otherNightReminder": null,
     "reminders": [
       "Знає",
       "Знає"
@@ -42,7 +42,7 @@
   {
     "id": "highpriestess_uk",
     "name": "Верховна Жриця",
-    "edition": "",
+    "edition": null,
     "team": "townsfolk",
     "firstNight": 50,
     "firstNightReminder": "Покажіть Верховній Жриці гравця, з яким, на вашу думку, їй варто поговорити завтра.",
@@ -57,7 +57,7 @@
   {
     "id": "villageidiot_uk",
     "name": "Сільський Дурник",
-    "edition": "",
+    "edition": null,
     "team": "townsfolk",
     "firstNight": 45,
     "firstNightReminder": "Сільський Дурник вказує на гравця; якщо це добрий гравець, покажіть великий палець вгору, якщо злий - великий палець вниз.",
@@ -111,7 +111,7 @@
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNightReminder": null,
     "otherNight": 60,
     "otherNightReminder": "Покажіть пальцями число (1, 2, 3, тощо), що відповідає кількості мертвих злих гравців.",
     "reminders": [],
@@ -126,7 +126,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNightReminder": null,
     "otherNight": 13,
     "otherNightReminder": "Раніше захищений гравець втрачає захист. Монах вказує на гравця окрім себе, додайте позначку захисту до нього.",
     "reminders": [
@@ -140,7 +140,7 @@
   {
     "id": "amnesiac_uk",
     "name": "Амнезіак",
-    "edition": "",
+    "edition": null,
     "team": "townsfolk",
     "firstNight": 12,
     "firstNightReminder": "Вирішіть, яку здібність матиме Амнезіак. Якщо через свою здібність Амнезіак прокинеться цієї ночі, розбудіть його і дійте відповідно.",
@@ -157,12 +157,12 @@
   {
     "id": "fisherman_uk",
     "name": "Рибалка",
-    "edition": "",
+    "edition": null,
     "team": "townsfolk",
     "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNightReminder": null,
     "otherNight": 0,
-    "otherNightReminder": "",
+    "otherNightReminder": null,
     "reminders": [
       "Без здібності"
     ],
@@ -191,10 +191,10 @@
   {
     "id": "farmer_uk",
     "name": "Фермер",
-    "edition": "",
+    "edition": null,
     "team": "townsfolk",
     "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNightReminder": null,
     "otherNight": 46,
     "otherNightReminder": "Якщо цієї ночі помер фермер, оберіть гравця і зробіть його Фермером. Розбудіть обраного гравця; покажіть йому картку 'Ви є' та жетон фермера.",
     "reminders": [],
@@ -206,12 +206,12 @@
   {
     "id": "cannibal_uk",
     "name": "Канібал",
-    "edition": "",
+    "edition": null,
     "team": "townsfolk",
     "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNightReminder": null,
     "otherNight": 0,
-    "otherNightReminder": "",
+    "otherNightReminder": null,
     "reminders": [
       "Отруєно",
       "Сьогодні помер"
@@ -224,12 +224,12 @@
   {
     "id": "ogre_uk",
     "name": "Огр",
-    "edition": "",
+    "edition": null,
     "team": "outsider",
     "firstNight": 49,
     "firstNightReminder": "Огр вказує на гравця (не себе) і переходить в його команду.",
     "otherNight": 0,
-    "otherNightReminder": "",
+    "otherNightReminder": null,
     "reminders": [
       "Друг"
     ],
@@ -244,9 +244,9 @@
     "edition": "bmr",
     "team": "outsider",
     "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNightReminder": null,
     "otherNight": 0,
-    "otherNightReminder": "",
+    "otherNightReminder": null,
     "reminders": [
       "П'яний"
     ],
@@ -261,9 +261,9 @@
     "edition": "tb",
     "team": "outsider",
     "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNightReminder": null,
     "otherNight": 0,
-    "otherNightReminder": "",
+    "otherNightReminder": null,
     "reminders": [],
     "setup": false,
     "ability": "Ви можете здаватись злим міньйоном чи демоном, навіть після смерті.",
@@ -276,9 +276,9 @@
     "edition": "tb",
     "team": "outsider",
     "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNightReminder": null,
     "otherNight": 0,
-    "otherNightReminder": "",
+    "otherNightReminder": null,
     "reminders": [],
     "remindersGlobal": [
       "П'янчуга"
@@ -313,7 +313,7 @@
   {
     "id": "harpy_uk",
     "name": "Гарпія",
-    "edition": "",
+    "edition": null,
     "team": "minion",
     "firstNight": 24,
     "firstNightReminder": "Гарпія почергово вказує на двох гравців. Розбудіть першого обраного гравця; покажіть їм картку 'Ви обрані персонажем' і жетон Гарпії, потім вкажіть на другого гравця.",
@@ -346,7 +346,7 @@
   {
     "id": "mezepheles_uk",
     "name": "Мезефель",
-    "edition": "",
+    "edition": null,
     "team": "minion",
     "firstNight": 27,
     "firstNightReminder": "Покажіть Мезефелю його таємне слово.",
@@ -383,7 +383,7 @@
     "edition": "tb",
     "team": "demon",
     "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNightReminder": null,
     "otherNight": 24,
     "otherNightReminder": "Імп вказує на гравця. Він помирає. Якщо Імп обирає себе: замініть персонажа 1 живого мінйона запасним жетоном Імпа. Покажіть йому картку 'Ви є', а потім жетон Імпа.",
     "reminders": [
@@ -397,10 +397,10 @@
   {
     "id": "ojo_uk",
     "name": "Охо",
-    "edition": "",
+    "edition": null,
     "team": "demon",
     "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNightReminder": null,
     "otherNight": 32,
     "otherNightReminder": "Охо обирає персонажа зі списку; якщо в грі є цей персонаж, він помирає. Якщо персонаж не в грі, Оповідач вирішує хто помре.",
     "reminders": [
@@ -417,7 +417,7 @@
     "edition": "snv",
     "team": "demon",
     "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNightReminder": null,
     "otherNight": 29,
     "otherNightReminder": "Фан Ґу вказує на гравця. Його персонаж помирає, якщо це не чужинець. Якщо це чужинець, і в грі нема інших Фан Ґу, натомість помирає Фан Ґу, і обраний гравець стає новим Фан Ґу. Розбудіть нового Фан Ґу; покажіть їм картку 'Ви є' і жетон Фан Ґу, потім картку 'Ви є' і сигнал 'за зло'.",
     "reminders": [
@@ -431,8 +431,8 @@
   },
   {
     "id": "spiritofivory_uk",
-    "firstNightReminder": "",
-    "otherNightReminder": "",
+    "firstNightReminder": null,
+    "otherNightReminder": null,
     "reminders": [
       "Без нового зла"
     ],
