@@ -1,0 +1,422 @@
+[
+  {
+    "id": "_meta",
+    "author": "Harald",
+    "name": "Chefs Deluxe 4"
+  },
+  {
+    "id": "chef_uk",
+    "name": "Шеф",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 36,
+    "firstNightReminder": "Покажіть пальцями (0, 1, 2, …) кількість пар злих персонажів.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Ви починаєте гру знаючи, скільки пар злих персонажів сидять поруч.",
+    "image": "/build/img/icons/townsfolk/chef.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "pixie_uk",
+    "name": "Піксі",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 29,
+    "firstNightReminder": "Покажіть піксі жетон персонажа у грі.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Одержимий",
+      "Має здібність"
+    ],
+    "setup": false,
+    "ability": "Ви одразу знаєте одного городянина в грі. Якщо ви одержимі, що ви - цей персонаж, ви отримаєте його здібність, коли він помре.",
+    "image": "/build/img/icons/townsfolk/pixie.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "mathematician_uk",
+    "name": "Математик",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 50,
+    "firstNightReminder": "Покажіть пальцями число (0, 1, 2, тощо) гравців, чиї здібності працювали неправильно через інші здібності.",
+    "otherNight": 70,
+    "otherNightReminder": "Покажіть пальцями число (0, 1, 2, тощо) гравців, чиї здібності працювали неправильно через інші здібності.",
+    "reminders": [
+      "Аномалія"
+    ],
+    "setup": false,
+    "ability": "Щоночі ви дізнаєтесь, у скількох гравців здібності працювали неправильно (від світанку).",
+    "image": "/build/img/icons/townsfolk/mathematician.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "snakecharmer_uk",
+    "name": "Заклинач змій",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 20,
+    "firstNightReminder": "Заклинач змій вказує на гравця. Якщо це демон: поміняйте демона і Заклинача змій персонажами та командами. Проінформуйте про це кожного з гравців. Нового Заклинача змій отруєно.",
+    "otherNight": 11,
+    "otherNightReminder": "Заклинач змій вказує на гравця. Якщо це демон: поміняйте демона і Заклинача змій персонажами та командами. Проінформуйте про це кожного з гравців. Нового Заклинача змій отруєно.",
+    "reminders": [
+      "Отруєно"
+    ],
+    "setup": false,
+    "ability": "Щоночі оберіть живого гравця; якщо ви оберете демона, ви міняєтесь персонажами й командами, і його отруєно.",
+    "image": "/build/img/icons/townsfolk/snakecharmer.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "towncrier_uk",
+    "name": "Глашатай",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 59,
+    "otherNightReminder": "Кивніть (так) чи похитайте головою (ні), показуючи, чи номінував сьогодні міньйон. Розмістіть жетон “Міньйон не номінував” (приберіть жетон 'Міньйон номінував”, якщо такий є).",
+    "reminders": [
+      "Міньйон не номінував",
+      "Міньйон номінував"
+    ],
+    "setup": false,
+    "ability": "Щоночі* ви дізнаєтесь, чи висував міньйон сьогодні когось на голосування.",
+    "image": "/build/img/icons/townsfolk/towncrier.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "savant_uk",
+    "name": "Савант",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Щодня ви можете усамітнитись з Оповідачем, і він скаже вам дві речі: одну правду й одну брехню.",
+    "image": "/build/img/icons/townsfolk/savant.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "amnesiac_uk",
+    "name": "Амнезіак",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 12,
+    "firstNightReminder": "Вирішіть, яку здібність матиме Амнезіак. Якщо через свою здібність Амнезіак прокинеться цієї ночі, розбудіть його і дійте відповідно.",
+    "otherNight": 5,
+    "otherNightReminder": "Якщо через свою здібність Амнезіак прокинеться цієї ночі, розбудіть його і дійте відповідно.",
+    "reminders": [
+      "?"
+    ],
+    "setup": false,
+    "ability": "Ви не знаєте своєї здібності. Щодня спробуйте (приватно) вгадати її; ви дізнаєтесь, наскільки близько вгадали.",
+    "image": "/build/img/icons/townsfolk/amnesiac.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "juggler_uk",
+    "name": "Жонглер",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 62,
+    "otherNightReminder": "Якщо сьогодні перший день Жонглера: вкажіть на пальцях число (0, 1, 2, тощо) маркеров “Правильно”. Приберіть маркери.",
+    "reminders": [
+      "Правильно"
+    ],
+    "setup": false,
+    "ability": "Протягом першого дня публічно вгадайте персонажів 5 або менше гравців. Наступної ночі ви дізнаєтесь, скільки ваших здогадок було правильними.",
+    "image": "/build/img/icons/townsfolk/juggler.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "fisherman_uk",
+    "name": "Рибалка",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Без здібності"
+    ],
+    "setup": false,
+    "ability": "Один раз за гру, вдень, ви можете усамітнитись з Оповідачем, і він дасть вам пораду, як перемогти.",
+    "image": "/build/img/icons/townsfolk/fisherman.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "philosopher_uk",
+    "name": "Філософ",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 2,
+    "firstNightReminder": "Філософ або дає сигнал 'ні', або вказує на доброго персонажа в списку. Якщо Філософ обрав персонажа: замініть жетон Філософа жетоном цього персонажа, і позначте його жетоном 'Насправді Філософ'. Якщо цей персонаж є в грі, позначте його жетоном \"П'яний\".",
+    "otherNight": 2,
+    "otherNightReminder": "Якщо філософ ще не використав свою здібність: філософ або дає сигнал 'ні', або вказує на доброго персонажа в списку. Якщо Філософ обрав персонажа: замініть жетон Філософа жетоном цього персонажа, і позначте його жетоном 'Насправді Філософ'. Якщо цей персонаж є в грі, позначте його жетоном \"П'яний\".",
+    "reminders": [],
+    "setup": false,
+    "ability": "Раз за гру, вночі, оберіть доброго персонажа: ви отримуєте його здібність. Якщо обраний персонаж вже є в грі, він п'яніє до кінця гри.",
+    "image": "/build/img/icons/townsfolk/philosopher.webp",
+    "remindersGlobal": [
+      "П'яний",
+      "Насправді філософ"
+    ]
+  },
+  {
+    "id": "poppygrower_uk",
+    "name": "Маковій",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 4,
+    "firstNightReminder": "Не повідомляйте демону й міньонам, хто є в їх команді.",
+    "otherNight": 3,
+    "otherNightReminder": "Якщо маковій помер, покажіть демону й міньонам одне одного.",
+    "reminders": [
+      "Зло прокидається"
+    ],
+    "setup": false,
+    "ability": "Міньони і демони не знають одне одного. Якщо ви помираєте, тієї ночі демон та міньони дізнаються, хто є хто.",
+    "image": "/build/img/icons/townsfolk/poppygrower.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "cannibal_uk",
+    "name": "Канібал",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Отруєно",
+      "Сьогодні помер"
+    ],
+    "setup": false,
+    "ability": "Ви маєте здібність останнього страченого гравця. Якщо страчено злого грався, вас отруєно, доки не стратять нового гравця.",
+    "image": "/build/img/icons/townsfolk/cannibal.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "atheist_uk",
+    "name": "Атеїст",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "ability": "Оповідач може порушувати правила і, якщо страчено Оповідача, добро перемагає, навіть якщо ви мертві. [Немає злих персонажів]",
+    "image": "/build/img/icons/townsfolk/atheist.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "puzzlemaster_uk",
+    "name": "Головоломник",
+    "edition": "",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "П'яний",
+      "Вже вгадував"
+    ],
+    "setup": false,
+    "ability": "1 з гравців п'яний, навіть якщо ви мертві. Якщо ви з однієї спроби вгадаєте, хто це, то дізнаєтесь, хто є демоном; якщо не вгадаєте, інформація буде хибною.",
+    "image": "/build/img/icons/outsider/puzzlemaster.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "recluse_uk",
+    "name": "Відлюдник",
+    "edition": "tb",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Ви можете здаватись злим міньйоном чи демоном, навіть після смерті.",
+    "image": "/build/img/icons/outsider/recluse.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "mutant_uk",
+    "name": "Мутант",
+    "edition": "snv",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Якщо ви \"одержимі\" тим, що ви - чужинець, вас може бути страчено.",
+    "image": "/build/img/icons/outsider/mutant.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "drunk_uk",
+    "name": "П'янчуга",
+    "edition": "tb",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "П'янчуга"
+    ],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ],
+    "setup": true,
+    "ability": "Ви не знаєте, що ви П’янчуга. Ви вважаєте, що ви городянин, але насправді це не так.",
+    "image": "/build/img/icons/outsider/drunk.webp"
+  },
+  {
+    "id": "spy_uk",
+    "name": "Шпигун",
+    "edition": "tb",
+    "team": "minion",
+    "firstNight": 47,
+    "firstNightReminder": "Покажіть Шпигуну Ґримуар, він може дивитись, скільки потрібно.",
+    "otherNight": 68,
+    "otherNightReminder": "Покажіть Шпигуну Ґримуар, він може дивитись, скільки потрібно.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Щоночі ви бачите Гримуар. Ви можете здаватись добрим городянином чи чужинцем, навіть після смерті.",
+    "image": "/build/img/icons/minion/spy.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "cerenovus_uk",
+    "name": "Серанова",
+    "edition": "snv",
+    "team": "minion",
+    "firstNight": 25,
+    "firstNightReminder": "Серанова вказує на гравця, потім на персонажа в списку. Розбудіть обраного гравця; покажіть йому картку \"Ви обрані персонажем\" і жетон Серанови, потім обраного персонажа. Якщо цей гравець не \"одержимий\" тим, що він - цей персонаж, його може бути страчено.",
+    "otherNight": 16,
+    "otherNightReminder": "Серанова вказує на гравця, потім на персонажа в списку. Розбудіть обраного гравця; покажіть йому картку \"Ви обрані персонажем\" і жетон Серанови, потім обраного персонажа. Якщо цей гравець не \"одержимий\" тим, що він - цей персонаж, його може бути страчено.",
+    "reminders": [
+      "Одержимий"
+    ],
+    "setup": false,
+    "ability": "Щоночі оберіть гравця і доброго персонажа: гравець \"одержимий\" тим, що він - цей персонаж, інакше його може бути страчено.",
+    "image": "/build/img/icons/minion/cerenovus.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "marionette_uk",
+    "name": "Маріонетка",
+    "edition": "",
+    "team": "minion",
+    "firstNight": 11,
+    "firstNightReminder": "Оберіть одного з гравців біля демона і позначте його жетоном \"Насправді маріонетка\". Розбудіть демона і покажіть гравця-маріонетку.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Насправді маріонетка"
+    ],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ],
+    "setup": true,
+    "ability": "Вам здається, що ви - добрий персонаж, але це не так. Демон знає, хто ви. [Ви сидите поруч з демоном]",
+    "image": "/build/img/icons/minion/marionette.webp"
+  },
+  {
+    "id": "eviltwin_uk",
+    "name": "Злий Близнюк",
+    "edition": "snv",
+    "team": "minion",
+    "firstNight": 23,
+    "firstNightReminder": "Розбудіть Злого блюзнюка та його сиблінга. Впевніться, що вони побачили одне одного. Вкажіть на Злого близнюка. Покажіть його токен другому гравцю. Покажіть на сиблінга. Покажіть його токен Злому близнюку.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Близнюк"
+    ],
+    "setup": false,
+    "ability": "Ви й гравець протилежної команди знаєте одне одного. Якщо доброго з вас страчено, зло перемагає. Добро не може перемогти, доки злий близнюк живий.",
+    "image": "/build/img/icons/minion/eviltwin.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "imp_uk",
+    "name": "Імп",
+    "edition": "tb",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 24,
+    "otherNightReminder": "Імп вказує на гравця. Він помирає. Якщо Імп обирає себе: замініть персонажа 1 живого мінйона запасним жетоном Імпа. Покажіть йому картку 'Ви є', а потім жетон Імпа.",
+    "reminders": [
+      "Вбито"
+    ],
+    "setup": false,
+    "ability": "Щоночі* оберіть гравця; його персонаж помирає. Якщо ви таким чином вбиваєте себе, міньйон стає Імпом.",
+    "image": "/build/img/icons/demon/imp.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "fanggu_uk",
+    "name": "Фан Ґу",
+    "edition": "snv",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 29,
+    "otherNightReminder": "Фан Ґу вказує на гравця. Його персонаж помирає, якщо це не чужинець. Якщо це чужинець, і в грі нема інших Фан Ґу, натомість помирає Фан Ґу, і обраний гравець стає новим Фан Ґу. Розбудіть нового Фан Ґу; покажіть їм картку 'Ви є' і жетон Фан Ґу, потім картку 'Ви є' і сигнал 'за зло'.",
+    "reminders": [
+      "Помре",
+      "Один раз"
+    ],
+    "setup": true,
+    "ability": "Щоночі* оберіть гравця; він помирає. Перший чужинець, якого ви вбиваєте, стає Фан Ґу, а ви помираєте замість нього [+1 чужинець].",
+    "image": "/build/img/icons/demon/fanggu.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "legion_uk",
+    "name": "Легіон",
+    "edition": "",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 34,
+    "otherNightReminder": "Оберіть гравця: він помирає.",
+    "reminders": [
+      "Мертвий",
+      "Буде страчено"
+    ],
+    "setup": true,
+    "ability": "Щоночі* може померти гравець. Якщо голосує лише зло, страта буде невдалою. Ви також здаєтесь мінйоном. [Більшість гравців - Легіон]",
+    "image": "/build/img/icons/demon/legion.webp",
+    "remindersGlobal": []
+  }
+]
