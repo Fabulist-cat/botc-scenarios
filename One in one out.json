@@ -116,7 +116,7 @@
     "otherNightReminder": "Покажіть пальцями число (1, 2, 3, тощо), що відповідає кількості мертвих злих гравців.",
     "reminders": [],
     "setup": false,
-    "ability": "Щоночі* ви діздаєтесь, скільки з мертвих гравців – злі.",
+    "ability": "Щоночі* ви дізнаєтесь, скільки з мертвих гравців – злі.",
     "image": "/build/img/icons/townsfolk/oracle.webp",
     "remindersGlobal": []
   },
