@@ -1,0 +1,260 @@
+[
+  {
+    "id": "_meta",
+    "name": "Blood Before Solstice",
+    "author": "Fabulist",
+    "almanac": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/almanac.html"
+  },
+  {
+    "id": "1_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/1_blood_before_solstice.png",
+    "firstNightReminder": "Розбудіть Оккультиста. Він обирає гравця, позначте його жетоном \"одержимий\".",
+    "otherNightReminder": "Якщо попередньо обраний гравець був одержимим тим, що його відмічено, відмітьте його. Розбудіть Оккультиста. Він обирає гравця, позначте його жетоном \"одержимий\". Якщо цей гравець буде одержимим тим, що його відмічено, його буде відмічено.",
+    "reminders": [
+      "Одержимий, Мітка"
+    ],
+    "name": "Оккультист",
+    "team": "minion",
+    "ability": "Щоночі оберіть гравця (він не дізнається про це). Якщо наступного дня він \"одержимий\" тим, що його відмічено – його буде відмічено.",
+    "firstNight": 16,
+    "otherNight": 3
+  },
+  {
+    "id": "2_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/2_blood_before_solstice.png",
+    "firstNightReminder": "Ірод вказує на гравця. Він п'яніє.",
+    "otherNightReminder": "Попередньо сп'янілий гравець тверезіє. Ірод вказує на гравця. Він п'яніє.",
+    "reminders": [
+      "П'яний"
+    ],
+    "name": "Ірод",
+    "team": "minion",
+    "ability": "Щоночі, оберіть гравця: він п'яніє на ніч і наступний день.",
+    "firstNight": 11,
+    "otherNight": 2
+  },
+  {
+    "id": "3_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/3_blood_before_solstice.png",
+    "reminders": [
+      "Мітка, Без здібності"
+    ],
+    "name": "Чорт",
+    "team": "minion",
+    "ability": "Раз за гру, вдень, приватно оберіть 2 гравців. Якщо вас відмічено, їх теж буде відмічено."
+  },
+  {
+    "id": "4_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/4_blood_before_solstice.png",
+    "firstNightReminder": "Розбудіть Йольського Кота. Він обирає ціль.",
+    "otherNightReminder": "Прокляття Кота спадає з попереднього гравця. Розбудіть Йольського Кота. Він обирає ціль.",
+    "reminders": [
+      "Мяу!"
+    ],
+    "name": "Йольській Кіт",
+    "team": "minion",
+    "ability": "Щоночі оберіть гравця (один раз можна обрати Оповідача). Його отруєно, і він може казати лише \"мяу\" до вечора, інакше його може бути страчено.",
+    "firstNight": 17,
+    "otherNight": 4
+  },
+  {
+    "id": "_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/_blood_before_solstice.png",
+    "firstNightReminder": "Визначте Х, оголосіть, що Крампус у грі, а ніч Х - ніч Різдва",
+    "otherNightReminder": "До ночі Х: Розбудіть Крампуса, дайте йому обрати 2 гравців. Позначте їх \"мітками\". Додайте лічильник ночей. В ніч Х: Всі відмічені гравці помирають, потім Крампус п'яніє.",
+    "reminders": [
+      "Мітка, П'яний,1,2,2,3,5,6,7"
+    ],
+    "setup": true,
+    "name": "Крампус",
+    "team": "demon",
+    "ability": "Щоночі* обіеріть 2 гравців: їх відмічено. В ніч Х всі гравці з мітками помирають, потім ви п'янієте. Всі знають Х і що ви у грі. Якщо страчено більше 1 доброго гравця, зло перемагає. [Х визначає Оповідач]",
+    "firstNight": 12,
+    "otherNight": 6
+  },
+  {
+    "id": "7_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/7_blood_before_solstice.png",
+    "firstNightReminder": "Розбудіть Лицаря. Покажіть йому 2 гравців, які не є демонами.",
+    "reminders": [
+      "Знає"
+    ],
+    "name": "Лицар",
+    "team": "townsfolk",
+    "ability": "Ви починаєте гру, знаючи 2 персонажів, жоден з яких не є демоном.",
+    "firstNight": 14
+  },
+  {
+    "id": "5_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/5_blood_before_solstice.png",
+    "firstNightReminder": "Покажіть на пальцях число (1, 2, 3, тощо) кроків від Демона до найближчого міньйона.",
+    "name": "Дзвонар",
+    "team": "townsfolk",
+    "ability": "Ви починаєте гру знаючи, за скільки кроків від демона сидить найближчий міньйон.",
+    "firstNight": 13
+  },
+  {
+    "id": "9_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/9_blood_before_solstice.png",
+    "firstNightReminder": "Розбудіть Віщого Янгола. Покажіть на пальцях число відмічених цієї ночі людей.",
+    "otherNightReminder": "Розбудіть Віщого Янгола. Покажіть на пальцях число відмічених цієї ночі людей.",
+    "name": "Віщий Янгол",
+    "team": "townsfolk",
+    "ability": "Щоночі ви дізнаєтесь, скільки людей сьогодні було відмічено",
+    "firstNight": 20,
+    "otherNight": 13
+  },
+  {
+    "id": "10_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/10_blood_before_solstice.png",
+    "firstNightReminder": "Поп вказує на гравця (не себе). Позначте його \"Захищено\"",
+    "otherNightReminder": "Поп вказує на нового гравця (не себе). Позначте його \"Захищено\"",
+    "reminders": [
+      "Захищено"
+    ],
+    "name": "Поп",
+    "team": "townsfolk",
+    "ability": "Щоночі оберіть нового гравця (не себе): демон не може його відмітити сьогодні.",
+    "firstNight": 15,
+    "otherNight": 5
+  },
+  {
+    "id": "18_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/18_blood_before_solstice.png",
+    "firstNightReminder": "Хазяйка вказує на 2 гравців. Покажіть їх число тих, хто прокидався вночі через свою здібність.",
+    "otherNightReminder": "Хазяйка вказує на 2 гравців. Покажіть їх число тих, хто прокидався вночі через свою здібність.",
+    "name": "Хазяйка",
+    "team": "townsfolk",
+    "ability": "Щоночі оберінь 2 живих гравців (не себе): ви дізнаєтесь, скільки з них прокидались сьогодні через свою здібність.",
+    "firstNight": 21,
+    "otherNight": 14
+  },
+  {
+    "id": "14_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/14_blood_before_solstice.png",
+    "otherNightReminder": "Волхв дізнається, скільки поруч з демоном сидить відмічених гравців.",
+    "name": "Волхв",
+    "team": "townsfolk",
+    "ability": "Щоночі* ви дізнаєтесь, скільки поруч з демоном сидить відмічених гравців.",
+    "otherNight": 11
+  },
+  {
+    "id": "11_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/11_blood_before_solstice.png",
+    "otherNightReminder": "Вівчар обирає 2 гравців, покажіть йому \"так\" або \"ні\", залежно від того, чи є серед них відмічені.",
+    "reminders": [
+      "Загублена вівця"
+    ],
+    "name": "Вівчар",
+    "team": "townsfolk",
+    "ability": "Щоночі* оберіть 2 гравців. Ви дізнаєтесь, чи є мітка принаймні на 1 з них (один з гравців ніколи не здається вам відміченим)",
+    "otherNight": 12
+  },
+  {
+    "id": "13_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/13_blood_before_solstice.png",
+    "otherNightReminder": "Ґазда обирає гравця. Якщо одного з них відмічено, пересуньте мітку на іншого.",
+    "name": "Ґазда",
+    "team": "townsfolk",
+    "ability": "Щоночі* оберіть гравця. Якщо лише одного з вас відмічено, мітка переходить до другого.",
+    "otherNight": 9
+  },
+  {
+    "id": "12_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/12_blood_before_solstice.png",
+    "firstNightReminder": "Якщо Коза ще не використала здібність: розбудіть Козу, вона або хитає головою, або вказує на гравця і дізнається його персонажа.",
+    "otherNightReminder": "Розбудіть Козу, вона або хитає головою, або вказує на гравця і дізнається його персонажа.",
+    "reminders": [
+      "Без здібності, П'яна"
+    ],
+    "name": "Коза",
+    "team": "townsfolk",
+    "ability": "Раз за гру, вночі, оберіть гравця: ви дізнаєтесь його персонажа, але якщо вас відмічено – ви п'яні.",
+    "firstNight": 18,
+    "otherNight": 7
+  },
+  {
+    "id": "6_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/6_blood_before_solstice.png",
+    "reminders": [
+      "No ability"
+    ],
+    "name": "Митець",
+    "team": "townsfolk",
+    "ability": "Раз за гру, протягом дня, ви можете задати Оповідачу будь-яке питання так/ні. "
+  },
+  {
+    "id": "15_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/15_blood_before_solstice.png",
+    "name": "Цар",
+    "team": "townsfolk",
+    "ability": "Раз за гру, вдень, публічно оберіть гравця: якщо він – городянин, то позбавляється мітки, якщо ні – вас відмічено. Ви не дізнаєтесь, що сталось."
+  },
+  {
+    "id": "8_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/8_blood_before_solstice.png",
+    "firstNightReminder": "Якщо на Звіздарі з'явилась мітка або її знято: розбудіть його і покажіть про це.",
+    "otherNightReminder": "Якщо на Звіздарі з'явилась мітка або її знято: розбудіть його і покажіть про це.",
+    "name": "Звіздар",
+    "team": "townsfolk",
+    "ability": "Ви знаєте, якщо вас відмічено, або з вас знято мітку",
+    "firstNight": 19,
+    "otherNight": 10
+  },
+  {
+    "id": "19_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/19_blood_before_solstice.png",
+    "otherNightReminder": "Якщо Віслюка обрав демон: вкажіть на 3 відмічених гравців.",
+    "name": "Віслюк",
+    "team": "townsfolk",
+    "ability": "Коли вас обирає демон, ви дізнаєтесь 3 відмічених гравців.",
+    "otherNight": 8
+  },
+  {
+    "id": "20_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/20_blood_before_solstice.png",
+    "remindersGlobal": [
+      "П'янчуга"
+    ],
+    "setup": true,
+    "name": "П'янчуга",
+    "team": "outsider",
+    "ability": "Ви не знаєте, що ви П'янчуга. Ви вважаєте себе городянином, але насправді це не так"
+  },
+  {
+    "id": "16_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/16_blood_before_solstice.png",
+    "name": "Біда",
+    "team": "outsider",
+    "ability": "Ви можете здаватись відміченим, навіть якщо насправді це не так."
+  },
+  {
+    "id": "17_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/17_blood_before_solstice.png",
+    "name": "Смерть",
+    "team": "outsider",
+    "ability": "Якщо вночі вас обирає демон, він одразу може обрати додатково ще одного гравця."
+  },
+  {
+    "id": "21_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/21_blood_before_solstice.png",
+    "name": "Юда",
+    "team": "outsider",
+    "ability": "Якщо ви є головною причиною програшу вашої команди, ви міняєте сторону та перемагаєте, навіть якщо ви мертві."
+  },
+  {
+    "id": "22_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/22_blood_before_solstice.png",
+    "setup": true,
+    "name": "Вартовий",
+    "team": "fabled",
+    "ability": "У грі може бути +1 або -1 чужинець"
+  },
+  {
+    "id": "23_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/23_blood_before_solstice.png",
+    "name": "Перемитник",
+    "team": "fabled",
+    "ability": "В цій грі є саморобні правила або персонажі."
+  }
+]
