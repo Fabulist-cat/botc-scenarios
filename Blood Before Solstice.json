@@ -6,20 +6,6 @@
     "almanac": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/almanac.html"
   },
   {
-    "id": "1_blood_before_solstice",
-    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/1_blood_before_solstice.png",
-    "firstNightReminder": "Розбудіть Оккультиста. Він обирає гравця, позначте його жетоном \"одержимий\".",
-    "otherNightReminder": "Якщо попередньо обраний гравець був одержимим тим, що його відмічено, відмітьте його. Розбудіть Оккультиста. Він обирає гравця, позначте його жетоном \"одержимий\". Якщо цей гравець буде одержимим тим, що його відмічено, його буде відмічено.",
-    "reminders": [
-      "Одержимий, Мітка"
-    ],
-    "name": "Оккультист",
-    "team": "minion",
-    "ability": "Щоночі оберіть гравця (він не дізнається про це). Якщо наступного дня він \"одержимий\" тим, що його відмічено – його буде відмічено.",
-    "firstNight": 16,
-    "otherNight": 3
-  },
-  {
     "id": "2_blood_before_solstice",
     "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/2_blood_before_solstice.png",
     "firstNightReminder": "Ірод вказує на гравця. Він п'яніє.",
@@ -34,14 +20,18 @@
     "otherNight": 2
   },
   {
-    "id": "3_blood_before_solstice",
-    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/3_blood_before_solstice.png",
+    "id": "1_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/1_blood_before_solstice.png",
+    "firstNightReminder": "Розбудіть Оккультиста. Він обирає гравця, позначте його жетоном \"одержимий\".",
+    "otherNightReminder": "Якщо попередньо обраний гравець був одержимим тим, що його відмічено, відмітьте його. Розбудіть Оккультиста. Він обирає гравця, позначте його жетоном \"одержимий\". Якщо цей гравець буде одержимим тим, що його відмічено, його буде відмічено.",
     "reminders": [
-      "Мітка, Без здібності"
+      "Одержимий, Мітка"
     ],
-    "name": "Чорт",
+    "name": "Оккультист",
     "team": "minion",
-    "ability": "Раз за гру, вдень, приватно оберіть 2 гравців. Якщо вас відмічено, їх теж буде відмічено."
+    "ability": "Щоночі оберіть гравця (він не дізнається про це). Якщо наступного дня він \"одержимий\" тим, що його відмічено – його буде відмічено.",
+    "firstNight": 16,
+    "otherNight": 3
   },
   {
     "id": "4_blood_before_solstice",
@@ -56,6 +46,16 @@
     "ability": "Щоночі оберіть гравця (один раз можна обрати Оповідача). Його отруєно, і він може казати лише \"мяу\" до вечора, інакше його може бути страчено.",
     "firstNight": 17,
     "otherNight": 4
+  },
+  {
+    "id": "3_blood_before_solstice",
+    "image": "https://www.bloodstar.xyz/p/Fabulist/Blood_Before_Solstice/3_blood_before_solstice.png",
+    "reminders": [
+      "Мітка, Без здібності"
+    ],
+    "name": "Чорт",
+    "team": "minion",
+    "ability": "Раз за гру, вдень, приватно оберіть 2 гравців. Якщо вас відмічено, їх теж буде відмічено."
   },
   {
     "id": "_blood_before_solstice",
